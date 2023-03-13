@@ -12,12 +12,24 @@ I am working for a startup that has a new platform named Fintech Finder. Fintech
 
 * Digitally sign a transaction that pays a Fintech Finder candidate.
 
-* Review the transaction hash code associated with the validated blockchain transaction.
-
 * To verify the transaction went through correctly, we use Ganache, which is our testing platform to see the transaction details.
 
-When the application is opened through Terminal(OS) or GitBash(Windows) using Streamlit, a browser will open and the user will land on the welcome page, as seen below. 
-![alt text]("C:\Users\audel\OneDrive\Desktop\Module_19_Cryptocurrency_Wallet_and_Transactions\Images\Stremlit Web Page Success.png")
+* Review the transaction hash code associated with the validated blockchain transaction.
+
+When the application is opened through Terminal(OS) or GitBash(Windows) using Streamlit, a browser will open and the user will land on the welcome page, as seen below. The user is able to see different Fintech professionals available for hire and their hourly rate.
+![alt text](https://github.com/asabeti/Module_19_Cryptocurrency_Wallet_and_Transactions/blob/main/Images/Stremlit%20Web%20Page%20Success.png)
+
+The user is able to select which Fintech professional they would like to hire by scrolling in the left panel. Once satisfied with whom they would like to hire, the user is able to input the amount of hours they will require from the professional which is also located in the left panel. The user will now be able to see the hourly rate (in Ethereum), and the total wage for the job is then displayed below. Once the user clicks "Send Transaction" the Ethereum is taken from the users wallet (Ganache account in this case) to the wallet address of the Fintech professional selected. The transaction hash is then displayed below the "Send Transaction" button. An example of this full process is shown below.
+![alt text](https://github.com/asabeti/Module_19_Cryptocurrency_Wallet_and_Transactions/blob/main/Gifs/GifMaker_20230313153826441.gif) 
+
+To verify the transaction went through correctly, we use Ganache, which is our testing platform to see the transaction details. When we first open Ganache, we can see that our account balance is lower (started with 100 Eth). We can see the transaction in Index 0.
+![alt text](https://github.com/asabeti/Module_19_Cryptocurrency_Wallet_and_Transactions/blob/main/Images/Ganache%20Account%20Index%200.png)
+
+After clicking on the transaction located at Index 0 on Ganache we can further inspect the details of this transaction. For instance, we can verify the transaction hash that was passed back to the user when the transaction went through.
+![alt text](https://github.com/asabeti/Module_19_Cryptocurrency_Wallet_and_Transactions/blob/main/Images/Ganache%20Transaction.png)
+
+
+
 
 ---
 
