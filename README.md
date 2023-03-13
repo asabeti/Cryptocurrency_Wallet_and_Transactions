@@ -16,7 +16,7 @@ I am working for a startup that has a new platform named Fintech Finder. Fintech
 
 * Review the transaction hash code associated with the validated blockchain transaction.
 
-When the application is opened through Terminal(OS) or GitBash(Windows) using Streamlit, a browser will open and the user will land on the welcome page, as seen below. The user is able to see different Fintech professionals available for hire and their hourly rate.
+When the application is opened through Terminal(MacOS) or GitBash(Windows) using Streamlit, a browser will open and the user will land on the welcome page, as seen below. The user is able to see different Fintech professionals available for hire and their hourly rate.
 ![alt text](https://github.com/asabeti/Module_19_Cryptocurrency_Wallet_and_Transactions/blob/main/Images/Stremlit%20Web%20Page%20Success.png)
 
 The user is able to select which Fintech professional they would like to hire by scrolling in the left panel. Once satisfied with whom they would like to hire, the user is able to input the amount of hours they will require from the professional which is also located in the left panel. The user will now be able to see the hourly rate (in Ethereum), and the total wage for the job is then displayed below. Once the user clicks "Send Transaction" the Ethereum is taken from the users wallet (Ganache account in this case) to the wallet address of the Fintech professional selected. The transaction hash is then displayed below the "Send Transaction" button. An example of this full process is shown below.
@@ -69,3 +69,28 @@ pip install requests
 pip install python-dotenv
 pip install bip44
 ```
+---
+
+## Usage
+
+If you would like to clone the repository to your local machine:
+
+* Type 'https://github.com/asabeti/Module_19_Cryptocurrency_Wallet_and_Transactions.git` in your terminal (MacOS) or GitBash (Windows), with the Anaconda dev environment activated.
+
+* Open Ganache. Create an .env file in the repo folder, copy and paste your personal Ganache mnemonic seed phrase into the .env file, and save it.
+
+* Type `streamlit run fintech_finder.py` and hit ENTER.
+
+---
+
+## Contributors
+
+Brought to you by [Audell Sabeti]
+Business: audellsabeti@compacific.com
+Personal: asabeti@outlook.com
+
+---
+
+## License
+
+MIT
