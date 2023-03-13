@@ -28,11 +28,7 @@ To verify the transaction went through correctly, we use Ganache, which is our t
 After clicking on the transaction located at Index 0 on Ganache we can further inspect the details of this transaction. For instance, we can verify the transaction hash that was passed back to the user when the transaction went through.
 ![alt text](https://github.com/asabeti/Module_19_Cryptocurrency_Wallet_and_Transactions/blob/main/Images/Ganache%20Transaction.png)
 
-
-
-
 ---
-
 
 ## Technologies
 
@@ -47,3 +43,29 @@ This application was written in Python 3.9.12. This application is dependent on 
 * [requests](https://pypi.org/project/requests/)
 * [dotenv](https://pypi.org/project/python-dotenv/)
 * [bip44](https://pypi.org/project/bip44/)
+
+---
+
+## Installation Guide
+
+Install [VS Code](https://code.visualstudio.com/) if you don't already have it.
+
+Install [Ganache](https://trufflesuite.com/ganache/) if you don't already have it.
+
+If you have [Anaconda](https://www.anaconda.com/products/distribution) downloaded, then dataclasses and typing will be part of your package. You can check that they're ready to use by typing the following in your CLI terminal:
+
+```python
+conda list dataclasses
+conda list typing
+```
+In the terminal, with the Anaconda dev environment activated, install the following packages and dependencies before running the application.
+
+```python
+pip install streamlit
+pip install web3==5.17
+pip install mnemonic
+pip install os-sys
+pip install requests
+pip install python-dotenv
+pip install bip44
+```
